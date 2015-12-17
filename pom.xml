@@ -18,7 +18,12 @@
       <url>https://raw.github.com/dragome/dragome/master/maven</url>
     </repository>
   </repositories>
-
+<distributionManagement>
+  <repository>
+    <id>pipeline</id>
+    <url>http://52.90.46.203:8081/content/repositories/pipeline</url>
+  </repository>
+</distributionManagement>
   <dependencies>
  <dependency>
       <groupId>com.dragome</groupId>
